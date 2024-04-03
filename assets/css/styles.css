@@ -1,0 +1,43 @@
+.firstbody {
+  height: 1140px;
+  background: linear-gradient(rgba(129, 81, 36, 0.9647058824), rgba(202, 154, 110, 0.7450980392));
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.firstbody .firstpage .title {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  position: absolute;
+  background: white;
+  height: 50px;
+  width: 95vw;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.search-text {
+  background: none;
+  width: 100vw;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 0;
+}
+
+.loupe-white {
+  display: none;
+  width: 25px;
+  height: 25px;
+}
+
+.loupe-blue {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=styles.css.map */

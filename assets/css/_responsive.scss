@@ -1,0 +1,9 @@
+body {
+    @include respond-to("mobile") {
+      font-size: $base-font-size - 2px;
+    }
+    @include respond-to("tablet") {
+      font-size: $base-font-size;
+    }
+  }
+  
