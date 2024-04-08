@@ -1,13 +1,18 @@
 .firstbody {
-  height: 1140px;
+  display: flex;
   background: linear-gradient(rgba(129, 81, 36, 0.9647058824), rgba(202, 154, 110, 0.7450980392));
   margin: 0;
   height: 100vh;
   width: 100vw;
 }
-.firstbody .firstpage .title {
+
+.page {
+  display: flex;
+}
+.page .title {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .search-box {
