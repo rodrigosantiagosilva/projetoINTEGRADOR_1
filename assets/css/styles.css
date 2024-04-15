@@ -49,4 +49,43 @@
   margin: 10px;
   width: 25px;
   height: 25px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  display: flex;
+  justify-content: center;
+}
+
+.blocos_about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blocos_about .about {
+  flex: 1;
+  border: red dashed 2px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+}
+.blocos_about .a1 {
+  background-color: aqua;
+  background-position: center;
+  background-size: cover;
+}
+.blocos_about .a2 {
+  background-color: brown;
+  background-image: url("https://images.vexels.com/media/users/3/347104/isolated/preview/0195c94bf7d7be6edbb094c6da0f49ab-ghost-drumming.png");
+  background-position: center;
+}
+.blocos_about .a3 {
+  background-color: aquamarine;
+  background-image: url("https://i.pinimg.com/originals/d8/ad/86/d8ad8688570ce1a986ef4b47104babab.png");
+  background-position: center;
 }/*# sourceMappingURL=styles.css.map */
