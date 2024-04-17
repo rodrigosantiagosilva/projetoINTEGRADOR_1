@@ -1,7 +1,7 @@
 .firstbody {
     background:linear-gradient($color1,$color2);
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     height: 100vh;
     width: 100vw;
 }
@@ -48,44 +48,30 @@
     width: 25px;
     height: 25px;
 }
-
-.menu{
+.abecalio{
+    display:flex;
+    justify-content: end;
+    
     padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    li{
-        display: flex;
-        justify-content: center;
-    }
 }
+.pos-f-t{
+    button
+    {
+        display: block;
+        padding: 10px 20px;
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+    h5{margin-right: 0;
+        font-size:20px;
+    }
 
-.blocos_about{
+}
+.pontos{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    .about{
-        flex: 1;
-        border: red dashed 2px;
-        min-height: 400px;
-        background-repeat: no-repeat;
-    }
-    .a1{
-        background-color: aqua;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .a2{
-        background-color: brown;
-        background-image: url('https://images.vexels.com/media/users/3/347104/isolated/preview/0195c94bf7d7be6edbb094c6da0f49ab-ghost-drumming.png');
-        background-position: center;
-    }
-
-    .a3{
-        background-color: aquamarine;
-        background-image: url('https://i.pinimg.com/originals/d8/ad/86/d8ad8688570ce1a986ef4b47104babab.png');
-        background-position: center;
+    span{
+        display: flex;
+        flex-flow: column;
+        margin-top: 1px;
     }
 }
