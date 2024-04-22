@@ -67,8 +67,10 @@
   transition: 1s;
 }
 .firstbody .pos-f-t h5 {
+  display: flex;
   margin-right: 0;
   font-size: 20px;
+  margin-top: 10px;
 }
 .firstbody .pos-f-t h5 a {
   color: rgb(255, 255, 255);
@@ -86,34 +88,49 @@
   right: 0;
 }
 
+.secondbody {
+  background: linear-gradient(#177cf0, #79b2f3);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.secondbody .abecalio {
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  right: 0;
+}
 .secondbody .pos-f-t {
   position: absolute;
 }
 .secondbody .pos-f-t button {
   display: block;
-  color: rgb(255, 0, 0);
+  color: white;
   padding: 0px 5px;
   margin-right: 40px;
   margin-top: 5px;
   border-radius: 10px;
 }
 .secondbody .pos-f-t button:hover {
-  color: rgb(255, 0, 0);
+  color: whitesmoke;
   transition: 1s;
 }
 .secondbody .pos-f-t h5 {
+  display: flex;
   margin-right: 0;
   font-size: 20px;
+  margin-top: 10px;
 }
 .secondbody .pos-f-t h5 a {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .secondbody .pos-f-t h5 a:hover {
-  color: rgba(255, 116, 116, 0.726);
+  color: rgba(255, 255, 255, 0.726);
 }
 .secondbody .puts {
-  color: rgb(0, 136, 255);
+  color: aliceblue;
   margin-left: 5px;
 }
 .secondbody .meme {
