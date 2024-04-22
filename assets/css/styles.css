@@ -5,8 +5,7 @@
   height: 100vh;
   width: 100vw;
 }
-
-.page {
+.firstbody .page {
   position: absolute;
   display: flex;
   width: 100%;
@@ -15,8 +14,7 @@
   color: white;
   font-size: 30px;
 }
-
-.search-box {
+.firstbody .search-box {
   position: absolute;
   background: white;
   margin-left: 20px;
@@ -29,8 +27,7 @@
   align-items: center;
   flex-direction: row-reverse;
 }
-
-.search-text {
+.firstbody .search-text {
   background: none;
   width: 100vw;
   border: 0;
@@ -38,26 +35,26 @@
   font-size: 16px;
   padding: 0;
 }
-
-.loupe-white {
+.firstbody .loupe-white {
   display: flex;
   width: 25px;
   height: 25px;
 }
-
-.loupe-blue {
+.firstbody .loupe-blue {
   margin: 10px;
   width: 25px;
   height: 25px;
 }
-
-.abecalio {
+.firstbody .abecalio {
   display: flex;
   justify-content: end;
   padding: 0;
+  right: 0;
 }
-
-.pos-f-t button {
+.firstbody .pos-f-t {
+  position: absolute;
+}
+.firstbody .pos-f-t button {
   display: block;
   color: white;
   padding: 0px 5px;
@@ -65,17 +62,72 @@
   margin-top: 5px;
   border-radius: 10px;
 }
-.pos-f-t button:hover {
+.firstbody .pos-f-t button:hover {
   color: whitesmoke;
   transition: 1s;
 }
-.pos-f-t h5 {
+.firstbody .pos-f-t h5 {
   margin-right: 0;
   font-size: 20px;
 }
-.pos-f-t h5 a {
+.firstbody .pos-f-t h5 a {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.pos-f-t h5 a:hover {
+.firstbody .pos-f-t h5 a:hover {
   color: rgba(255, 255, 255, 0.726);
+}
+.firstbody .puts {
+  color: aliceblue;
+  margin-left: 5px;
+}
+.firstbody .meme {
+  position: absolute;
+  right: 0;
+}
+
+.secondbody .pos-f-t {
+  position: absolute;
+}
+.secondbody .pos-f-t button {
+  display: block;
+  color: rgb(255, 0, 0);
+  padding: 0px 5px;
+  margin-right: 40px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.secondbody .pos-f-t button:hover {
+  color: rgb(255, 0, 0);
+  transition: 1s;
+}
+.secondbody .pos-f-t h5 {
+  margin-right: 0;
+  font-size: 20px;
+}
+.secondbody .pos-f-t h5 a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.secondbody .pos-f-t h5 a:hover {
+  color: rgba(255, 116, 116, 0.726);
+}
+.secondbody .puts {
+  color: rgb(0, 136, 255);
+  margin-left: 5px;
+}
+.secondbody .meme {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=styles.css.map */
