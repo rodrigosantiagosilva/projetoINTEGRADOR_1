@@ -5,14 +5,30 @@
   height: 100vh;
   width: 100vw;
 }
-.firstbody .page {
-  position: absolute;
+.firstbody .comeco {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 60px;
+  flex-direction: column;
+}
+.firstbody .comeco .button {
+  margin-left: 20px;
+  margin-right: 50px;
+  border: none;
   color: white;
-  font-size: 30px;
+  display: flex;
+  justify-content: end;
+}
+.firstbody .comeco .coisadobutton {
+  margin: 0;
+  display: flex;
+  justify-content: end;
+}
+.firstbody .comeco .coisadobutton .meme {
+  margin: 0;
+  padding: 0;
+}
+.firstbody .comeco .coisadobutton .meme .p-4 {
+  margin: 0;
+  font-size: medium;
 }
 .firstbody .search-box {
   position: absolute;
@@ -45,48 +61,6 @@
   width: 25px;
   height: 25px;
 }
-.firstbody .abecalio {
-  display: flex;
-  justify-content: end;
-  padding: 0;
-  right: 0;
-}
-.firstbody .pos-f-t {
-  position: absolute;
-}
-.firstbody .pos-f-t button {
-  display: block;
-  color: white;
-  padding: 0px 5px;
-  margin-right: 40px;
-  margin-top: 5px;
-  border-radius: 10px;
-}
-.firstbody .pos-f-t button:hover {
-  color: whitesmoke;
-  transition: 1s;
-}
-.firstbody .pos-f-t h5 {
-  display: flex;
-  margin-right: 0;
-  font-size: 20px;
-  margin-top: 10px;
-}
-.firstbody .pos-f-t h5 a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-.firstbody .pos-f-t h5 a:hover {
-  color: rgba(255, 255, 255, 0.726);
-}
-.firstbody .puts {
-  color: aliceblue;
-  margin-left: 5px;
-}
-.firstbody .meme {
-  position: absolute;
-  right: 0;
-}
 
 .secondbody {
   background: linear-gradient(#177cf0, #79b2f3);
@@ -94,48 +68,6 @@
   padding: 0;
   height: 100vh;
   width: 100vw;
-}
-.secondbody .abecalio {
-  display: flex;
-  justify-content: end;
-  padding: 0;
-  right: 0;
-}
-.secondbody .pos-f-t {
-  position: absolute;
-}
-.secondbody .pos-f-t button {
-  display: block;
-  color: white;
-  padding: 0px 5px;
-  margin-right: 40px;
-  margin-top: 5px;
-  border-radius: 10px;
-}
-.secondbody .pos-f-t button:hover {
-  color: whitesmoke;
-  transition: 1s;
-}
-.secondbody .pos-f-t h5 {
-  display: flex;
-  margin-right: 0;
-  font-size: 20px;
-  margin-top: 10px;
-}
-.secondbody .pos-f-t h5 a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-.secondbody .pos-f-t h5 a:hover {
-  color: rgba(255, 255, 255, 0.726);
-}
-.secondbody .puts {
-  color: aliceblue;
-  margin-left: 5px;
-}
-.secondbody .meme {
-  position: absolute;
-  right: 0;
 }
 
 @media (max-width: 480px) {
