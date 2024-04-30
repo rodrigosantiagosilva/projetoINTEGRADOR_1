@@ -30,6 +30,14 @@
   margin: 0;
   font-size: medium;
 }
+.firstbody .comeco .coisadobutton .meme .p-4 a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.firstbody .comeco .coisadobutton .meme .p-4 a:hover {
+  color: rgb(161, 161, 161);
+}
 .firstbody .search-box {
   position: absolute;
   background: white;
