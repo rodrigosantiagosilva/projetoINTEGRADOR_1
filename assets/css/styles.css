@@ -77,6 +77,34 @@
   height: 100vh;
   width: 100vw;
 }
+.secondbody .comecotwo {
+  display: flex;
+  flex-direction: column;
+}
+.secondbody .comecotwo .button {
+  display: flex;
+  justify-content: end;
+}
+.secondbody .comecotwo .button .memetwo span {
+  color: white;
+}
+.secondbody .comecotwo .buttonthing {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+}
+.secondbody .comecotwo .buttonthing a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.secondbody .comecotwo .buttonthing a:hover {
+  color: rgb(161, 161, 161);
+}
+.secondbody .comecotwo .buttonthing .potato {
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 480px) {
   body {

@@ -38,7 +38,6 @@
       }
     }
   }
-
   .search-box {
     position: absolute;
     background: white;
@@ -72,7 +71,7 @@
   }
 
 }
- 
+
 
 .secondbody {
   background: linear-gradient($color4, $color3);
@@ -80,4 +79,34 @@
   padding: 0;
   height: 100vh;
   width: 100vw;
+  .comecotwo{
+    display: flex;
+    flex-direction: column;
+    .button{
+      display: flex;
+      justify-content: end;
+      .memetwo{
+        span{
+          color: white;
+        }
+      }
+    }
+    .buttonthing{
+      display: flex;
+      justify-content: end;
+      text-align: right;
+      a{
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+        &:hover{
+          color: rgb(161, 161, 161);
+        }
+      }
+      .potato{
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
 }
